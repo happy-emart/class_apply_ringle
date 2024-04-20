@@ -1,0 +1,13 @@
+/* Styles for days in the selected week */
+.dayPicker-Day--startOfWeek,
+.dayPicker-Day--endOfWeek {
+  border-radius: 9999px; /* fully rounded corners for circles */
+  background-color: #4f46e5; /* your color for selected days */
+  color: white;
+}
+
+.dayPicker-Day--selectedWeek:not(.dayPicker-Day--startOfWeek):not(.dayPicker-Day--endOfWeek) {
+  border-radius: 0; /* square corners */
+  background-color: #4f46e5; /* your color for selected days */
+  color: white;
+}

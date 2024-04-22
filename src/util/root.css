@@ -1,0 +1,46 @@
+@import url(./font.css);
+
+:root {
+    --bold: 'Pretendard-black';
+    --regular: 'Pretendard-regular';
+}
+
+.bold-400 {
+    font-family: var(--bold);
+    font-size: 16px;
+}
+
+.bold-300 {
+    font-family: var(--bold);
+    font-size: 24px;
+}
+
+.bold-200 {
+    font-family: var(--bold);
+    font-size: 30px;
+}
+
+.bold-100 {
+    font-family: var(--bold);
+    font-size: 50px;
+}
+
+.regular-400 {
+    font-family: var(--regular);
+    font-size: 16px;
+}
+
+.regular-300 {
+    font-family: var(--regular);
+    font-size: 24px;
+}
+
+.regular-200 {
+    font-family: var(--regular);
+    font-size: 40px;
+}
+
+.regular-100 {
+    font-family: var(--regular);
+    font-size: 50px;
+}

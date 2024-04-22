@@ -1,9 +1,16 @@
 import { configureStore } from '@reduxjs/toolkit';
-import selectedDayReducer from './selectedDayReducer';
+import selectedWeekReducer from './selectedWeekReducer';
+import tutorDataReducer from './tutorDataReducer';
+import classRequestReducer from './classRequestReducer';
+import tuteeDataReducer from './tuteeDataReducer';
+
 
 const store = configureStore({
   reducer: {
-    selectedDay: selectedDayReducer,
+    selectedWeek: selectedWeekReducer,
+    tutorData: tutorDataReducer,
+    tuteeData: tuteeDataReducer,
+    classRequest: classRequestReducer,
   },
 });
 

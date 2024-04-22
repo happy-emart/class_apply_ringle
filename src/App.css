@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -32,7 +36,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.border-b-dotted {
+  border-bottom: 2px dotted #D4A2FF; /* Example uses a purple color, replace with your desired color */
 }

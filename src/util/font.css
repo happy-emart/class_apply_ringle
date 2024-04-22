@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Pretendard-black';
+    src: url('./fonts/PRETENDARD-BLACK.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard-regular';
+    src: url('./fonts/PRETENDARD-REGULAR.TTF') format('truetype');
+}
